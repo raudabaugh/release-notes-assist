@@ -1,0 +1,104 @@
+{
+    "merged_prs": [
+        {
+            "id": 123,
+            "title": "Add new dashboard feature",
+            "body": "This PR adds a new dashboard with analytics capabilities",
+            "url": "https://github.com/example/repo/pull/123",
+            "merged_at": "2025-05-01T10:30:00Z",
+            "user": "developer1",
+            "labels": [
+                "feature",
+                "enhancement"
+            ],
+            "repository": "example/repo"
+        },
+        {
+            "id": 124,
+            "title": "Fix login button on mobile devices",
+            "body": "This PR fixes the login button not appearing correctly on small screens",
+            "url": "https://github.com/example/repo/pull/124",
+            "merged_at": "2025-05-02T14:20:00Z",
+            "user": "developer2",
+            "labels": [
+                "bug",
+                "mobile"
+            ],
+            "repository": "example/repo"
+        },
+        {
+            "id": 125,
+            "title": "Update documentation for API endpoints",
+            "body": "This PR improves the documentation for all REST API endpoints",
+            "url": "https://github.com/example/repo/pull/125",
+            "merged_at": "2025-05-03T09:15:00Z",
+            "user": "developer3",
+            "labels": [
+                "documentation"
+            ],
+            "repository": "example/repo"
+        }
+    ],
+    "commits": [
+        {
+            "sha": "abc1234567890",
+            "message": "Add dashboard component",
+            "url": "https://github.com/example/repo/commit/abc1234567890",
+            "date": "2025-05-01T10:25:00Z",
+            "author": "developer1",
+            "repository": "example/repo"
+        },
+        {
+            "sha": "def1234567890",
+            "message": "Fix CSS for mobile devices",
+            "url": "https://github.com/example/repo/commit/def1234567890",
+            "date": "2025-05-02T14:15:00Z",
+            "author": "developer2",
+            "repository": "example/repo"
+        },
+        {
+            "sha": "ghi1234567890",
+            "message": "Update API docs",
+            "url": "https://github.com/example/repo/commit/ghi1234567890",
+            "date": "2025-05-03T09:10:00Z",
+            "author": "developer3",
+            "repository": "example/repo"
+        }
+    ],
+    "issues": [
+        {
+            "id": 45,
+            "title": "Dashboard feature request",
+            "body": "We need a dashboard to visualize key metrics",
+            "url": "https://github.com/example/repo/issues/45",
+            "state": "closed",
+            "created_at": "2025-04-25T08:00:00Z",
+            "updated_at": "2025-05-01T10:35:00Z",
+            "closed_at": "2025-05-01T10:35:00Z",
+            "user": "product_manager",
+            "labels": [
+                "enhancement",
+                "priority-high"
+            ],
+            "repository": "example/repo"
+        },
+        {
+            "id": 46,
+            "title": "Login button broken on mobile",
+            "body": "The login button is not visible on iPhone devices",
+            "url": "https://github.com/example/repo/issues/46",
+            "state": "closed",
+            "created_at": "2025-04-28T11:30:00Z",
+            "updated_at": "2025-05-02T14:25:00Z",
+            "closed_at": "2025-05-02T14:25:00Z",
+            "user": "qa_tester",
+            "labels": [
+                "bug",
+                "mobile"
+            ],
+            "repository": "example/repo"
+        }
+    ],
+    "collected_at": "2025-05-04T00:00:00Z",
+    "collection_period_days": 7
+}

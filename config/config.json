@@ -1,0 +1,37 @@
+{
+    "github": {
+        "organization": "your-organization",
+        "repository": "your-repository",
+        "collect_issues": false
+    },
+    "output": {
+        "format": "markdown",
+        "doc_type": "technical"
+    },
+    "generate_doc_updates": true,
+    "publish": {
+        "enabled": false,
+        "github": {
+            "repo_name": "your-organization/your-repository",
+            "tag_name": "vX.Y.Z",
+            "name": "Release vX.Y.Z",
+            "draft": false,
+            "prerelease": false
+        },
+        "slack": {
+            "channel_id": "your-slack-channel-id",
+            "title": "📝 New Release Notes"
+        },
+        "confluence": {
+            "space_key": "your-confluence-space-key",
+            "parent_page_id": "your-parent-page-id",
+            "title": "Release Notes"
+        }
+    },
+    "schedule": {
+        "frequency": "weekly",
+        "day": "friday",
+        "at_time": "15:00",
+        "look_back_days": 1
+    }
+}
