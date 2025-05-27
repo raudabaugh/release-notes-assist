@@ -1,9 +1,9 @@
 name: Generate Release Notes
 
 on:
-  schedule:
+  # schedule:
     # Run every Friday at 3:00 PM UTC
-    - cron: '0 15 * * 5'
+    # - cron: '0 15 * * 5'
   workflow_dispatch:
     inputs:
       since_days:
